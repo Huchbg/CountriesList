@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    margin: 0;
+}
+
+.header{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(240, 250, 250);
+    padding: 10px 0;
+}
+
+.mainHeading{
+    color: orange;
+    font-size: 60px;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.info{
+    font-size: 20px;
+}
+
+.row2{
+    padding: 15px 0;
+    background-color: rgba(241, 248, 248,.4);
+    display: flex;
+    box-shadow: 0 -1px 3px 0  gray;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    color: black;
+    background-color: orange;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: rgb(219, 142, 0);
+    cursor: pointer;
+}
+
+.information{
+    box-shadow: 0 -1px 3px 0  gray;
+    padding: 20px 0;
+    width: 100%;
+    background-color: rgb(240, 250, 250);
+}
+
+.Row{
+    display: flex;
+    justify-content: left;
+}
+.specInfo{
+    width: 25%;
+    text-align: center;
+}
+
+.Row+.Row{
+    margin-top: 10px;
+}
+
+.bar{
+    width: 50%;
+    position: relative;
+}
+
+.colorOfBar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: orange;
+}
+.number{
+    position: relative;
+    left: 20px;
+}
